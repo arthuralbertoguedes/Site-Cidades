@@ -121,10 +121,10 @@ footer{
 
 @media screen and (max-width: 600px){
     .divHeader h1{
-        font-size: 20px;
+        font-size: 30px;
       }
     .divHeader{
-        margin-top:0;
+        margin-top:100px;
         }
     footer{
         font-size: 14px;
