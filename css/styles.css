@@ -5,6 +5,7 @@ html,body{
     margin: 0;
     font-size: 16px;
     color: rgba(53, 6, 6,0.7);
+    overflow-y: hidden;
 }
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
