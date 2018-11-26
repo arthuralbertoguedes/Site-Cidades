@@ -120,11 +120,17 @@ footer{
 }
 
 @media (max-width: 600px){
-    .divHeader{
-        font-size: 14px;
+    .divHeader h1{
+        font-size: 20px;
       }
-    .footer{
+    .divHeader{
+        margin-top:0;
+        }
+    footer{
         font-size: 14px;
        }
+    h1,h2{
+        font-size: 20px;
+        }
     
 }
