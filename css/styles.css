@@ -1,0 +1,119 @@
+/*Ajustes gerais*/
+html,body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: rgba(53, 6, 6,0.7);
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+}
+p{
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+nav,ul{
+    
+    margin: 0;
+    padding-top: 5px;
+}
+li{
+    font-size: 20px;
+    display: inline;
+    margin-left: 20px;
+}
+a{
+    
+    text-decoration: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+section{
+    padding: 5%;
+    background: linear-gradient(to right,rgb(197, 204, 218),rgb(171, 179, 206));
+    box-shadow: 2px 2px 2px 2px rgb(58, 63, 61);
+}
+
+/*Cabeçalho*/
+header{
+    height: 100%;
+    width: 100%;
+    background: url('../images/img07.jpeg') center center/cover no-repeat;
+    text-align: center;
+    background-attachment: fixed;
+    color: white;
+}
+.divHeader{
+    margin-top: 12%;
+    background: rgba(0,0,0,0.2);
+    padding: 2%;
+}
+.divHeader h1{
+    font-size: 80px;
+    margin-bottom: -10px;
+}
+
+/*Seções*/
+
+.secao2{
+    background: rgba(0,0,0,0.8);
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 100;
+}
+.container-title{
+    background: rgba(0,0,0,0.7);
+    overflow: auto;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10%;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+/*Divs fundo e efeito parallax*/
+.fundo1{
+    background: url('../images/img02.jpeg') center center/cover no-repeat;
+    height: 40%;
+    background-attachment: fixed;
+}
+.fundo2{
+    height: 50%;
+    background: url('../images/img05.jpeg') center center/cover no-repeat;
+    background-attachment: fixed;
+}
+.fundo3{
+    height: 50%;
+    background: url('../images/img06.jpeg') center center/cover no-repeat;
+    background-attachment: fixed;
+}
+.fundo4{
+    height: 60%;
+    background: url('../images/img03.jpeg') center center/cover no-repeat;
+    background-attachment: fixed;
+}
+.fundo5{
+    height: 60%;
+    background: url('../images/img08.jpeg') center center/cover no-repeat;
+    background-attachment: fixed;
+}
+.fundo6{
+    height: 70%;
+    background: url('../images/img09.jpeg') center center/cover no-repeat;
+    background-attachment: fixed;
+}
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    background-color: rgba(51, 42, 42,0.9);
+    font-size: 20px;
+    color: rgb(231, 218, 218);
+    margin: 0;
+    padding: 1%;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
